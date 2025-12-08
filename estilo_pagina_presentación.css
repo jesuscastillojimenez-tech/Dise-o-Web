@@ -1,0 +1,48 @@
+/* Formato  */
+
+
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+
+}
+
+/* Margen y centrar body */
+body {
+    background-color: #24245b;
+    /* Color de fondo */
+    display: flex;
+    justify-content: center;
+    /* Centrar en pantalla */
+    margin-top: 50px;
+    /* Margen de arriba */
+}
+
+/* Formato tarjeta de presentación */
+.perfil {
+    background-color: #ffffff;
+    width: 350px;
+    /* Ancho fijo */
+    padding: 20px;
+    /* Relleno interno */
+    text-align: center;
+    /* Alineación del texto */
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+/* Formato foto de perfil */
+#foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #24245b;
+}
+
+/* Formato parrafos información */
+.información p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+    /* interlineado  */
+}
